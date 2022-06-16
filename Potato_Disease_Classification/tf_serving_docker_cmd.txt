@@ -1,0 +1,1 @@
+sudo docker run -t --rm -p 8501:8501 -v /home/rutvik/Documents/nlp/deep_learning_nlp_projects/potato_classification:/potato_classification tensorflow/serving --rest_api_port=8501 --model_config_file=/potato_classification/training/models.config
